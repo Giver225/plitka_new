@@ -117,6 +117,12 @@ html, body {
   .container .little_map {
     display: block;
   }
+  .container .sale_title {
+    width: 100%;
+  }
+  .container .sale_title1 {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1020px) {
@@ -141,6 +147,9 @@ html, body {
   .container .little_card {
     width: 100%;
     margin-top: 2%;
+  }
+  .container .sale_title {
+    font-size: 30px;
   }
 }
 
@@ -259,6 +268,15 @@ button {
   width: 255px;
 }
 
+.galery_link {
+  padding-top: 19px;
+  width: 100%;
+  margin-left: 20px;
+  color: #DA4F30;
+  text-decoration: none;
+  text-align: center;
+}
+
 #logo {
   margin: 0;
   padding: 0;
@@ -275,12 +293,27 @@ button {
   background-color: #712620;
 }
 
+.head_btn:hover {
+  background-color: #5e1f1b;
+  color: #ededed;
+}
+
 #head_btn1, #head_btn4, #head_btn6 {
   background-color: #FFB54E;
 }
 
+#head_btn1:hover, #head_btn4:hover, #head_btn6:hover {
+  background-color: #eea847;
+  color: #ededed;
+}
+
 #head_btn3, #head_btn5, #head_btn8 {
   background-color: #DA4F30;
+}
+
+#head_btn3:hover, #head_btn5:hover, #head_btn8:hover {
+  background-color: #cc4c2f;
+  color: #ededed;
 }
 
 #orange_contacts {
@@ -318,6 +351,7 @@ button {
   padding: 5px 10px;
   font-size: 12px;
   border: 1px solid #000;
+  cursor: pointer;
 }
 
 .second_block {
@@ -333,6 +367,7 @@ button {
   margin-right: auto;
   font-size: 40px;
   text-align: center;
+  font-weight: 600;
   text-transform: uppercase;
   padding-top: 39px;
 }
@@ -367,6 +402,7 @@ button {
 }
 
 .gray_title {
+  color: #5B5B5B;
   margin-left: auto;
   margin-right: auto;
   font-size: 48px;
@@ -443,6 +479,11 @@ li {
   padding-top: 55px;
 }
 
+.more_pictures1 {
+  color: #DA4F30;
+  text-decoration: underline;
+}
+
 .kovka_subtext {
   margin-left: auto;
   margin-right: auto;
@@ -483,50 +524,54 @@ li {
 
 /* ---- grid-item ---- */
 .grid-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
   width: 400px;
   height: 536px;
   float: left;
 }
 
+.grid-item img {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .all_width {
-  background: url("../img/image_53.png") center;
-  background-size: cover;
   width: 100%;
   height: 536px;
 }
 
 .item2 {
-  background: url("../img/image_55.png") center;
-  background-size: cover;
   width: 66.66666%;
   height: 535px;
 }
 
 .item3 {
-  background: url("../img/image_54.png") center;
-  background-size: cover;
   width: 33.33333%;
   height: 327px;
 }
 
 .item4 {
-  background: url("../img/image_52.png") center;
-  background-size: cover;
-  background-size: cover;
   width: 33.33333%;
   height: 208px;
 }
 
 .item5 {
-  background: url("../img/image_56.png") center;
-  background-size: cover;
   width: 33.33333%;
   height: 535px;
 }
 
 .item6 {
-  background: url("../img/image_57.png") center;
-  background-size: cover;
   width: 66.6666%;
   height: 535px;
 }
@@ -614,6 +659,14 @@ li {
   padding-bottom: 41px;
 }
 
+.big_orange1 {
+  font-size: 48px;
+  font-weight: 700;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #DA4F30;
+}
+
 .big_orange {
   font-size: 48px;
   font-weight: 700;
@@ -663,4 +716,72 @@ li {
   display: block;
   width: 100%;
   padding-top: 481px;
+}
+
+.galery_page {
+  background-color: #DA4F30;
+}
+
+#back_btn {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10000;
+  top: 10px;
+}
+
+.sale_title {
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #5B5B5B;
+  padding-top: 102px;
+  float: left;
+  margin: 0px;
+  width: 50%;
+  text-align: left;
+}
+
+.sale_title1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #5B5B5B;
+  padding-top: 50px;
+  float: left;
+  margin: 0px;
+  width: 50%;
+  text-align: left;
+}
+
+.sale_block {
+  background: url("../img/bg_sale1.svg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sale_block1 {
+  background: url("../img/bg_sale2.svg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sale_pic1 {
+  display: block;
+  width: 50%;
+}
+
+.thumb img {
+  -webkit-filter: grayscale(0);
+  filter: none;
+}
+
+.thumb img:hover {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.thumb {
+  display: inline-block;
 }

@@ -1,0 +1,1386 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Галерея</title>
+    <link rel="shortcut icon" href="16.ico" sizes="16x16" type="image/x-icon">
+    <link rel="shortcut icon" href="32.ico" sizes="32x32" type="image/x-icon">
+    <link rel="shortcut icon" href="192.ico" sizes="192x192" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- jQuery (Cloudflare CDN) -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Bootstrap Bundle JS (Cloudflare CDN) -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
+    <style>
+        @import url("css/style.css");
+        .thumb img {
+            -webkit-filter: grayscale(0);
+            filter: none;
+            border-radius: 5px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+
+        .thumb img:hover {
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+        }
+
+        .thumb {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="galery_page">
+    <div class="container">
+        <a id="back_btn" href="index.html">
+            <img src="img\back.svg" alt="">
+        </a>
+        <h1 class="white_title">Галерея наших работ</h1>
+        <div class="row">
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0000.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0000.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0001.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0001.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0003.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0003.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0004.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0004.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0005.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0005.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0006.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0006.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0007.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0007.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0008.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0008.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0009.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0009.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0010.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0010.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0011.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0011.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0012.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0012.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0013.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0013.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0014.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0014.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0015.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0015.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0016.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0016.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0017.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0017.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0018.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0018.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0019.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0019.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0020.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0020.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0021.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0021.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0022.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0022.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0023.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0023.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0024.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0024.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0025.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0025.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0026.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0026.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0027.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0027.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0028.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0028.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0029.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0029.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0030.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0030.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0031.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0031.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0032.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0032.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0033.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0033.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0034.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0034.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0035.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0035.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0036.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0036.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0037.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0037.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0038.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0038.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0039.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0039.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0040.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0040.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0041.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0041.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0042.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0042.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0043.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0043.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0044.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0044.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0045.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0045.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0046.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0046.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0047.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0047.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0048.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0048.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0049.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0049.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0050.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0050.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0051.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0051.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0052.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0052.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0053.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0053.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0054.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0054.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0055.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0055.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0056.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0056.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0057.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0057.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0058.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0058.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0059.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0059.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0060.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0060.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0061.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0061.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0062.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0062.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0063.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0063.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0064.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0064.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0065.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0065.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0066.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0066.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0067.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0067.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0068.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0068.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0069.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0069.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0070.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0070.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0072.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0072.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0073.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0073.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0074.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0074.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0075.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0075.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0076.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0076.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0077.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0077.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0078.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0078.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0079.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0079.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0080.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0080.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0081.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0081.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0082.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0082.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0083.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0083.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0084.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0084.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0085.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0085.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0086.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0086.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0087.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0087.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0088.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0088.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0089.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0089.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0090.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0090.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0091.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0091.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0092.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0092.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0093.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0093.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0094.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0094.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0095.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0095.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0096.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0096.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0097.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0097.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0098.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0098.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0099.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0099.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0100.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0100.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0101.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0101.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0102.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0102.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0103.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0103.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0104.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0104.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0105.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0105.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0106.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0106.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0107.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0107.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0108.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0108.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0109.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0109.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0110.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0110.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0111.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0111.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0112.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0112.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0113.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0113.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0114.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0114.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0115.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0115.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0116.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0116.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0117.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0117.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0118.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0118.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0119.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0119.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0120.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0120.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0121.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0121.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0122.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0122.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0123.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0123.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0124.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0124.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0125.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0125.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0126.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0126.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0127.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0127.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0128.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0128.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0129.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0129.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0130.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0130.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0131.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0131.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0132.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0132.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0133.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0133.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0134.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0134.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0135.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0135.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0136.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0136.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0137.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0137.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0138.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0138.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0139.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0139.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0140.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0140.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0141.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0141.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0142.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0142.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0143.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0143.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0144.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0144.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0145.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0145.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0146.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0146.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0147.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0147.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0148.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0148.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0149.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0149.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0150.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0150.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0151.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0151.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0152.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0152.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0153.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0153.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0154.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0154.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0155.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0155.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0156.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0156.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0157.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0157.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0158.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0158.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0159.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0159.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0160.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0160.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0161.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0161.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0162.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0162.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0163.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0163.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0164.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0164.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0165.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0165.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0166.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0166.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0167.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0167.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0168.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0168.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0169.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0169.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0170.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0170.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0171.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0171.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0172.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0172.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0173.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0173.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0174.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0174.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0175.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0175.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0176.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0176.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0177.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0177.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0178.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0178.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0179.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0179.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0180.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0180.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0181.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0181.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0182.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0182.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0183.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0183.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0184.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0184.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0185.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0185.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0186.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0186.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0187.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0187.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0188.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0188.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0189.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0189.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0190.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0190.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0191.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0191.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0192.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0192.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0193.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0193.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0194.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0194.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0195.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0195.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0196.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0196.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0197.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0197.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0198.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0198.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0199.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0199.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0200.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0200.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0201.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0201.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0202.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0202.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0203.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0203.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0204.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0204.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0205.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0205.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0206.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0206.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0207.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0207.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0208.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0208.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0209.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0209.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0210.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0210.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0211.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0211.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0212.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0212.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0213.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0213.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0214.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0214.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0215.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0215.jpg" alt="...">
+                </a>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-6 thumb">
+                <a data-fancybox="gallery" href="img\galery\IMG-20220808-WA0216.jpg">
+                    <img class="img-fluid" src="img\galery\IMG-20220808-WA0216.jpg" alt="...">
+                </a>
+            </div>
+    
+        </div>
+    </div>
+    <div class="eight_block" id="contacts">
+            <div class="container">
+                <h2 class="white_title">Контактная информация</h2>
+                <p class="footer_text" id="footer_number1">+7 (906) 740 33 40</p>
+                <p class="footer_text">+7 (977) 345 57 55</p>
+                <p class="footer_text">Rom.rom17@mail.ru</p>
+                <p class="footer_text" id="footer_adress">Московская область, Домодедовский р-н, поселок Житнево, 12А</p>
+                <div class="large_map map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A10e333ba8e48901dfa9280f560768c92bb47259a9fdd78ea15473c5b32966c42&amp;width=1275&amp;height=481&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+                <div class="big_map map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A10e333ba8e48901dfa9280f560768c92bb47259a9fdd78ea15473c5b32966c42&amp;width=1000&amp;height=481&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+                <div class="middle_map map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A10e333ba8e48901dfa9280f560768c92bb47259a9fdd78ea15473c5b32966c42&amp;width=500&amp;height=481&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+                <div class="little_map map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A10e333ba8e48901dfa9280f560768c92bb47259a9fdd78ea15473c5b32966c42&amp;width=320&amp;height=320&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+                <img id="footer" src="img/footer.svg" alt="">
+            </div>
+        </div>
+</div>
+<!-- jQuery -->
+<!-- <script src="/examples/vendors/jquery/jquery-1.12.4.min.js"></script> -->
+<!-- Bootstrap JS -->
+<!-- <script src="/examples/vendors/bootstrap-3.3.7/js/bootstrap.min.js"></script> -->
+<!-- fancyBox JS -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<!-- Mosiac Flow
+<script src="/examples/vendors/mosaicflow/jquery.mosaicflow.js"></script>
+<script>
+    $(function () {
+        $('#mycontainer').mosaicflow({
+            itemSelector: '.mosaicflow__item',
+            minItemWidth: 300
+        });
+    });
+</script> -->
+
+</body>
+</html>
+						
