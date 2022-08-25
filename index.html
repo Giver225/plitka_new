@@ -4,7 +4,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="initial-scale=1.0, width=device-width">
         <title>Тротуарная плитка и художественная ковка</title>
+        <link rel="shortcut icon" href="16.ico" sizes="16x16" type="image/x-icon">
+        <link rel="shortcut icon" href="32.ico" sizes="32x32" type="image/x-icon">
+        <link rel="shortcut icon" href="192.ico" sizes="192x192" type="image/x-icon">
         <link rel="stylesheet" type= "text/css" href="css/style.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer"> -->
+        <!-- jQuery (Cloudflare CDN) -->
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- Bootstrap Bundle JS (Cloudflare CDN) -->
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+        />
         <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     </head>
     <body>
@@ -23,8 +35,12 @@
                                 <p class="contact">+7 (977) 345 57 55</p>
                                 <p class="contact">rom.rom17@mail.ru</p>
                                 <p class="contact2">Мы работаем без выходных с 9:00 до 20:00</p>
-                                <p class="adress">Московская область, Домодедовский р-н, поселок Житнево, 12А</p>
+                                <p class="adress" id="adress">Московская область, Домодедовский р-н, поселок Житнево, 12А</p>
+                                <!-- <a class="galery_link" href="galery.html">
+                                    ГАЛЕРЕЯ
+                                </a> -->
                             </div>
+
                         </div>
                         <button class="head_btn" id="head_btn1">ТРОТУАРНАЯ ПЛИТКА</button>
                         <button class="head_btn" id="head_btn2">ОБЛИЦОВОЧНЫЕ РАБОТЫ</button>
@@ -37,7 +53,7 @@
                         <div class="main_text">
                             <h1 class="welcome">ТРОТУАРНАЯ ПЛИТКА И<br>ХУДОЖЕСТВЕННАЯ КОВКА</h1>
                             <p class="main_subtext">Лучшее качество в Москве и московской области!</p>
-                            <button class="btn main_count">РАССЧИТАТЬ ЦЕНУ</button>
+                            <button id="btn1" class="btn main_count">РАССЧИТАТЬ ЦЕНУ</button>
                         </div>
                     </div>
                     
@@ -49,10 +65,15 @@
         </div>
 
 
+        <div class="sale_block">
+            <div class="container">
+                <h2 class="sale_title ">Скидки пенсионерам <span class="big_orange1">5%</span></h2>
+                <img class="sale_pic1 form" src="img/Ded_i_babka.svg" alt="">
+            </div>
+        </div>
 
 
-
-        <div class="second_block">
+        <div class="second_block" id="plitka_block">
             <div class="container">
                 <h2 class="white_title">ТРОТУАРНАЯ ПЛИТКА ВИБРОЛИТЬЕВАЯ И ВИБРОПРЕССОВАННАЯ</h2>
                 <p class="white_subtext">Осуществляем продажу тротуарной плитки оптом и в розницу по низким ценам с доставкой и укладкой.</p>
@@ -88,7 +109,7 @@
                         <li>Высокая степень механизации и автоматизациии</li>
                         <li>Возможность изготовления плитки разных цветов</li>
                         <li>Вибропрессование - надежно и долговечно</li>
-                        <button class="btn main_count list_btn">РАССЧИТАТЬ ЦЕНУ</button>
+                        <button id="list_btn" class="btn main_count list_btn">РАССЧИТАТЬ ЦЕНУ</button>
                     </ul>
                     
                 </div>
@@ -97,11 +118,11 @@
                 <div class="tech1">
                     
                     <ul class="list2">
-                        <li>Высокая производительность труда</li>
-                        <li>Высокая степень механизации и автоматизациии</li>
-                        <li>Возможность изготовления плитки разных цветов</li>
-                        <li>Вибропрессование - надежно и долговечно</li>
-                        <button class="btn main_count list_btn">РАССЧИТАТЬ ЦЕНУ</button>
+                        <li>Ручной труд</li>
+                        <li>Гладкая поверхность плитки</li>
+                        <li>Плитка отличается сочными и яркими цветами</li>
+                        <li>Вибролитье - красиво, но недолговечно</li>
+                        <button id="list_btn1" class="btn main_count list_btn">РАССЧИТАТЬ ЦЕНУ</button>
                     </ul>
                     <img src="img\image_16_ek1.png" alt="" id="litie">
 
@@ -119,32 +140,66 @@
                 <p class="white_subtext">Изготавливаем плитку различных форм и цветов!</p>
                 <div class="galery">
                     <div class="row">
-                        <div class="column">
-                          <img class="form" src="img\image_32.png">
-                          <img class="form" src="img\image_33.png">
-                          <img class="form" src="img\image_34.png">
+                        <div class="column thumb form">
+                            <a data-fancybox="gallery" href="img\image_32.png">
+                                <img class="form" src="img\image_32.png" alt="...">
+                            </a>
+                            <a data-fancybox="gallery" href="img\image_33.png">
+                                <img class="form" src="img\image_33.png" alt="...">
+                            </a>
+                            <a data-fancybox="gallery" href="img\image_34.png">
+                                <img class="form" src="img\image_34.png" alt="...">
+                            </a>
                         </div>
-                        <div class="column">
-                          <img class="form" src="img\image_35.png">
-                          <img class="form" src="img\image_36.png">
-                          <img class="form" src="img\image_37.png">
+                        <div class="column thumb form">
+                            <a data-fancybox="gallery" href="img\image_35.png">
+                                <img class="form" src="img\image_35.png" alt="...">
+                            </a>
+                            <a data-fancybox="gallery" href="img\image_36.png">
+                                <img class="form" src="img\image_36.png" alt="...">
+                            </a>
+                            <a data-fancybox="gallery" href="img\image_37.png">
+                                <img class="form" src="img\image_37.png" alt="...">
+                            </a>
                         </div>
-                        <div class="column">
-                          <img class="form" src="img\image_38.png">
-                          <img class="form" src="img\image_39.png">
-                          <img class="form" src="img\image_40.png">
+                        <div class="column thumb form">
+                            <a data-fancybox="gallery" href="img\image_38.png">
+                                <img class="form" src="img\image_38.png" alt="...">
+                            </a>
+                            <a data-fancybox="gallery" href="img\image_39.png">
+                                <img class="form" src="img\image_39.png" alt="...">
+                            </a>
+                            <a data-fancybox="gallery" href="img\image_40.png">
+                                <img class="form" src="img\image_40.png" alt="...">
+                            </a>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="column">
-                            <img class="form" src="img\image_32_ek1.png" alt="">
+                        <div class="column thumb form">
+                            <a data-fancybox="gallery" href="img\image_32_ek1.png">
+                                <img class="form" src="img\image_32_ek1.png" alt="...">
+                            </a>
+                            <a data-fancybox="gallery" href="img\image_33_ek1.png">
+                                <img class="form" src="img\image_33_ek1.png" alt="...">
+                            </a>
+                            <a data-fancybox="gallery" href="img\image_34_ek1.png">
+                                <img class="form" src="img\image_34_ek1.png" alt="...">
+                            </a>
+                            <a data-fancybox="gallery" href="img\image_35_ek1.png">
+                                <img class="form" src="img\image_35_ek1.png" alt="...">
+                            </a>
+                            <a data-fancybox="gallery" href="img\image_36_ek1.png">
+                                <img class="form" src="img\image_36_ek1.png" alt="...">
+                            </a>
+                            <!-- <img class="form" src="img\image_32_ek1.png" alt="">
                             <img class="form" src="img\image_33_ek1.png" alt="">
                             <img class="form" src="img\image_34_ek1.png" alt="">
                             <img class="form" src="img\image_35_ek1.png" alt="">
-                            <img class="form" src="img\image_36_ek1.png" alt="">
+                            <img class="form" src="img\image_36_ek1.png" alt=""> -->
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
 
@@ -157,7 +212,53 @@
                 <h2 class="gray_title">примеры наших работ</h2>
                 <div class="galery">
                     <div class="row">
-                        <div class="column">
+                        <div class="thumb form">
+                            <a data-fancybox="gallery" href="img\examples1.png">
+                                <img class="form" src="img\Mask group-0.png" alt="...">
+                            </a>
+                        </div>
+                        <div class="thumb form">
+                            <a data-fancybox="gallery" href="img\examples2.png">
+                                <img class="form" src="img\Mask group-1.png" alt="...">
+                            </a>
+                        </div>
+                        <div class="thumb form">
+                            <a data-fancybox="gallery" href="img\examples3.png">
+                                <img class="form" src="img\Mask group-2.png" alt="...">
+                            </a>
+                        </div>
+                        <div class="thumb form">
+                            <a data-fancybox="gallery" href="img\examples4.png">
+                                <img class="form" src="img\Mask group-3.png" alt="...">
+                            </a>
+                        </div>
+                        <div class="thumb form">
+                            <a data-fancybox="gallery" href="img\examples5.png">
+                                <img class="form" src="img\Mask group-4.png" alt="...">
+                            </a>
+                        </div>
+                        <div class="thumb form">
+                            <a data-fancybox="gallery" href="img\examples6.png">
+                                <img class="form" src="img\Mask group-5.png" alt="...">
+                            </a>
+                        </div>
+                        <div class="thumb form">
+                            <a data-fancybox="gallery" href="img\examples7.png">
+                                <img class="form" src="img\Mask group-6.png" alt="...">
+                            </a>
+                        </div>
+                        <div class="thumb form">
+                            <a data-fancybox="gallery" href="img\examples8.png">
+                                <img class="form" src="img\Mask group-7.png" alt="...">
+                            </a>
+                        </div>
+                        <div class="thumb form">
+                            <a data-fancybox="gallery" href="img\examples9.png">
+                                <img class="form" src="img\Mask group-8.png" alt="...">
+                            </a>
+                        </div>
+
+                        <!-- <div class="column">
                           <img class="form" src="img\Mask group-0.png">
                           <img class="form" src="img\Mask group-1.png">
                           <img class="form" src="img\Mask group-2.png">
@@ -171,8 +272,9 @@
                           <img class="form" src="img\Mask group-6.png">
                           <img class="form" src="img\Mask group-7.png">
                           <img class="form" src="img\Mask group-8.png">
-                        </div>
+                        </div> -->
                     </div>
+                    <a class="more_pictures1" href="galery.html">Больше фотографий</a>
                 </div>
 
             </div>
@@ -181,7 +283,7 @@
 
 
         
-        <div class="second_block">
+        <div class="second_block" id="kovka_block">
             <div class="container">
                 <h2 class="white_title">Художественная ковка</h2>
                 <p class="white_subtext kovka_subtext">Дешевле, чем вы думаете! Гармонично вписывается в современный интерьер и экстерьер зданий. Вы можете заказать декоративные решетки, вывески, уличные фонари, ворота, калитки, скамейки и другие кованные изделия!</p>
@@ -207,33 +309,52 @@
 
         <div class="sixth_block">
             <div class="container">
-                <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 400 }'>
-                    <div class="grid-item all_width form">
-                        <!-- <img src="img\image_53.png" id="kovka_pic1" alt=""> -->
+                <div class="grid row" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 400 }'>
+                    <div class="grid-item all_width thumb form">
+                        <a data-fancybox="gallery" href="img\image 53.png">
+                            <img src="img\image_53.png" id="kovka_pic1" alt="">
+                        </a>
                     </div>
-                    <div class="grid-item item2 form">
-                        <!-- <img src="img\image_55.png" id="kovka_pic2" alt=""> -->
+                    <div class="grid-item item2 thumb form">
+                        <a data-fancybox="gallery" href="img\image 55.png">
+                            <img src="img\image_55.png" id="kovka_pic1" alt="">
+                        </a>
                     </div>
-                    <div class="grid-item item3 form">
-                        <!-- <img src="img\image_54.png" id="kovka_pic3" alt=""> -->
+                    <div class="grid-item item3 thumb form">
+                        <a data-fancybox="gallery" href="img\image 54.png">
+                            <img src="img\image_54.png" id="kovka_pic1" alt="">
+                        </a>
                     </div>
-                    <div class="grid-item item4 form">
-                        <!-- <img src="img\image_52.png" id="kovka_pic4" alt=""> -->
+                    <div class="grid-item item4 thumb form">
+                        <a data-fancybox="gallery" href="img\image 52.png">
+                            <img src="img\image_52.png" id="kovka_pic1" alt="">
+                        </a>
                     </div>
-                    <div class="grid-item item5 form">
-                        <!-- <img src="img\image_56.png" id="kovka_pic5" alt=""> -->
+                    <div class="grid-item item5 thumb form">
+                        <a data-fancybox="gallery" href="img\image 56.png">
+                            <img src="img\image_56.png" id="kovka_pic1" alt="">
+                        </a>
                     </div>
-                    <div class="grid-item item6 form">
-                        <!-- <img src="img\image_57.png" id="kovka_pic6" alt=""> -->
+                    <div class="grid-item item6 thumb form">
+                        <a data-fancybox="gallery" href="img\image 57.png">
+                            <img src="img\image_57.png" id="kovka_pic1" alt="">
+                        </a>
                     </div>
                 </div>
-                <a class="more_pictures" href="#">Больше фотографий</a>
+                <a class="more_pictures" href="galery.html">Больше фотографий</a>
             </div>
         </div>
 
 
+        <div class="sale_block1">
+            <div class="container">
+                <h2 class="sale_title1 ">На заказ на сумму более 100 000 рублей действует скидка <span class="big_orange1">10%</span></h2>
+                <img class="sale_pic1 form" src="img/money.svg" alt="">
+            </div>
+        </div>
 
-        <div class="seventh_block">
+
+        <div id="sevenBlock" class="seventh_block">
             <div class="container">
                 <h2 class="gray_title">Расчет цены</h2>
                 <div class="price_cards">
@@ -241,27 +362,27 @@
                         <h3 class="card_name">Кованные ворота</h3>
                         <p class="price">от <span class="big_orange">16000</span> руб</p>
                         <p class="card_info">Кованные ворота будут идеальным дополнением вашего участка, ворота не только красивы, но и надежны.</p>
-                        <button class="btn main_count card_btn">ЗАКАЗАТЬ</button>
+                        <button id="vorota_btn" class="btn main_count card_btn">ЗАКАЗАТЬ</button>
                     </div>
                     <div class="card little_card" id="kalitki">
                         <h3 class="card_name">Кованные калитки</h3>
                         <p class="price">от <span class="big_orange">8000</span> руб</p>
                         <p class="card_info">Кованные калитки по самым выгодным ценам! Лучшее качество гарантировано.</p>
-                        <button class="btn main_count card_btn">ЗАКАЗАТЬ</button>
+                        <button id="kalitki_btn" class="btn main_count card_btn">ЗАКАЗАТЬ</button>
                     </div>
                     <div class="card big_card" id="plitka">
                         <h3 class="card_name">Тротуарная плитка</h3>
                         <p class="price">от <span class="big_orange">470</span> руб/м²</p>
                         <p class="card_info">Лучшая плитка для участков и тротуаров. Различные технологии позволяют подобрать плитку для любого случая.</p>
-                        <button class="btn main_count card_btn">ЗАКАЗАТЬ</button>
+                        <button id="plitka_btn" class="btn main_count card_btn">ЗАКАЗАТЬ</button>
                     </div>
                 </div>
-                <p class="allert"><span class="big_orange">Внимание!</span><br>Чтобы сделать заказ, свяжитесь с нами по телефону или напишите нам на электронную почту!</p>
+                <p class="allert"><span id="big_orange" class="big_orange">Внимание!</span><br>Чтобы сделать заказ, свяжитесь с нами по телефону или напишите нам на электронную почту!</p>
             </div>
         </div>
 
 
-        <div class="eight_block">
+        <div class="eight_block" id="contacts">
             <div class="container">
                 <h2 class="white_title">Контактная информация</h2>
                 <p class="footer_text" id="footer_number1">+7 (906) 740 33 40</p>
@@ -283,7 +404,8 @@
                 <img id="footer" src="img/footer.svg" alt="">
             </div>
         </div>
-
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+        <script src="scripts/app.js"></script>
         
     </body>
 </html>
